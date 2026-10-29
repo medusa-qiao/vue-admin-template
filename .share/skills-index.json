@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "scope": "standalone-template",
+  "pathBase": "project-root",
+  "packageCount": 7,
+  "skillCount": 94,
+  "packages": [
+    {
+      "name": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills",
+      "entryCount": 88,
+      "sourceLockEntry": {
+        "source": "jiaiyan/element-plus-skills",
+        "sourceType": "github",
+        "skillPath": "SKILL.md",
+        "computedHash": "3604c38953c20f99daef7200a0df2a552081e5c5d98f2878d95c41a24f66ed5a"
+      },
+      "localAdaptation": "Project-curated: removed SSR; adapted setup, theming and indices to the existing Vue client app; upstream attribution and license retained."
+    },
+    {
+      "name": "tailwind-design-system",
+      "path": ".share/skills/tailwind-design-system",
+      "entryCount": 1,
+      "sourceLockEntry": {
+        "source": "wshobson/agents",
+        "sourceType": "github",
+        "skillPath": "plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md",
+        "computedHash": "9e60f9fad6a645b173f076102b76f67d2dc4a1c0867e26c4bff9b9c7dd7f99cd"
+      },
+      "localAdaptation": "Project-curated: Vue and Element Plus layout, theme and interaction guidance replaces unrelated framework examples."
+    },
+    {
+      "name": "typescript-best-practices",
+      "path": ".share/skills/typescript-best-practices",
+      "entryCount": 1,
+      "sourceLockEntry": {
+        "source": "cursor/plugins",
+        "ref": "1ba91fc25c0977741dd0e267849e6234b037ed0a",
+        "sourceType": "github",
+        "skillPath": "pstack/skills/typescript-best-practices/SKILL.md",
+        "computedHash": "36f8d1838fef4895e25efbac756412766828656ddb38f08e197c1084c3e92357"
+      },
+      "localAdaptation": "Project-curated: Vue project type boundaries and reuse guidance; corrected examples and removed dependencies on uninstalled principle skills. Source hash identifies the upstream installation, not adapted file contents."
+    },
+    {
+      "name": "ui-template",
+      "path": ".share/skills/ui-template",
+      "entryCount": 1,
+      "source": "template-local"
+    },
+    {
+      "name": "vite",
+      "path": ".share/skills/vite",
+      "entryCount": 1,
+      "sourceLockEntry": {
+        "source": "antfu/skills",
+        "ref": "d02c48452d782231e4c32d7069cde731a4c7db42",
+        "sourceType": "github",
+        "skillPath": "skills/vite/SKILL.md",
+        "computedHash": "8a05956b65faa8131826da179f2d09afe73931971466d5640d95388b4182cda5"
+      },
+      "localAdaptation": "Project-curated: existing Vue client build configuration and plugins; unused SSR, library and custom runtime guides removed."
+    },
+    {
+      "name": "vitest",
+      "path": ".share/skills/vitest",
+      "entryCount": 1,
+      "sourceLockEntry": {
+        "source": "antfu/skills",
+        "ref": "d02c48452d782231e4c32d7069cde731a4c7db42",
+        "sourceType": "github",
+        "skillPath": "skills/vitest/SKILL.md",
+        "computedHash": "62206e8e58bdad39fcdd4bd962dd592a6939ab13c068fd0618ff4304735d5e0b"
+      },
+      "localAdaptation": "Project-curated: standalone template Node test configuration; unused multi-project and external runtime setup guides removed."
+    },
+    {
+      "name": "vue",
+      "path": ".share/skills/vue",
+      "entryCount": 1,
+      "sourceLockEntry": {
+        "source": "antfu/skills",
+        "ref": "d02c48452d782231e4c32d7069cde731a4c7db42",
+        "sourceType": "github",
+        "skillPath": "skills/vue/SKILL.md",
+        "computedHash": "2375c65a63ec942f753ad91d7ffde9b4c1ed6e16819c3bd1633a6f5c7b3d3ee1"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "el-affix",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-affix/SKILL.md"
+    },
+    {
+      "name": "el-alert",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-alert/SKILL.md"
+    },
+    {
+      "name": "el-anchor",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-anchor/SKILL.md"
+    },
+    {
+      "name": "el-autocomplete",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-autocomplete/SKILL.md"
+    },
+    {
+      "name": "el-avatar",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-avatar/SKILL.md"
+    },
+    {
+      "name": "el-backtop",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-backtop/SKILL.md"
+    },
+    {
+      "name": "el-badge",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-badge/SKILL.md"
+    },
+    {
+      "name": "el-breadcrumb",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-breadcrumb/SKILL.md"
+    },
+    {
+      "name": "el-button",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-button/SKILL.md"
+    },
+    {
+      "name": "el-calendar",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-calendar/SKILL.md"
+    },
+    {
+      "name": "el-card",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-card/SKILL.md"
+    },
+    {
+      "name": "el-carousel",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-carousel/SKILL.md"
+    },
+    {
+      "name": "el-cascader",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-cascader/SKILL.md"
+    },
+    {
+      "name": "el-checkbox",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-checkbox/SKILL.md"
+    },
+    {
+      "name": "el-collapse",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-collapse/SKILL.md"
+    },
+    {
+      "name": "el-color-picker",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-color-picker/SKILL.md"
+    },
+    {
+      "name": "el-color-picker-panel",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-color-picker-panel/SKILL.md"
+    },
+    {
+      "name": "el-config-provider",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-config-provider/SKILL.md"
+    },
+    {
+      "name": "el-container",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-container/SKILL.md"
+    },
+    {
+      "name": "el-date-picker",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-date-picker/SKILL.md"
+    },
+    {
+      "name": "el-date-picker-panel",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-date-picker-panel/SKILL.md"
+    },
+    {
+      "name": "el-datetime-picker",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-datetime-picker/SKILL.md"
+    },
+    {
+      "name": "el-descriptions",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-descriptions/SKILL.md"
+    },
+    {
+      "name": "el-dialog",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-dialog/SKILL.md"
+    },
+    {
+      "name": "el-divider",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-divider/SKILL.md"
+    },
+    {
+      "name": "el-drawer",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-drawer/SKILL.md"
+    },
+    {
+      "name": "el-dropdown",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-dropdown/SKILL.md"
+    },
+    {
+      "name": "el-empty",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-empty/SKILL.md"
+    },
+    {
+      "name": "el-form",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-form/SKILL.md"
+    },
+    {
+      "name": "el-icon",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-icon/SKILL.md"
+    },
+    {
+      "name": "el-image",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-image/SKILL.md"
+    },
+    {
+      "name": "el-infinite-scroll",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-infinite-scroll/SKILL.md"
+    },
+    {
+      "name": "el-input",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-input/SKILL.md"
+    },
+    {
+      "name": "el-input-number",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-input-number/SKILL.md"
+    },
+    {
+      "name": "el-input-tag",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-input-tag/SKILL.md"
+    },
+    {
+      "name": "el-link",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-link/SKILL.md"
+    },
+    {
+      "name": "el-loading",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-loading/SKILL.md"
+    },
+    {
+      "name": "el-mention",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-mention/SKILL.md"
+    },
+    {
+      "name": "el-menu",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-menu/SKILL.md"
+    },
+    {
+      "name": "el-message",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-message/SKILL.md"
+    },
+    {
+      "name": "el-message-box",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-message-box/SKILL.md"
+    },
+    {
+      "name": "el-notification",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-notification/SKILL.md"
+    },
+    {
+      "name": "el-page-header",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-page-header/SKILL.md"
+    },
+    {
+      "name": "el-pagination",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-pagination/SKILL.md"
+    },
+    {
+      "name": "el-popconfirm",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-popconfirm/SKILL.md"
+    },
+    {
+      "name": "el-popover",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-popover/SKILL.md"
+    },
+    {
+      "name": "el-progress",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-progress/SKILL.md"
+    },
+    {
+      "name": "el-radio",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-radio/SKILL.md"
+    },
+    {
+      "name": "el-rate",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-rate/SKILL.md"
+    },
+    {
+      "name": "el-result",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-result/SKILL.md"
+    },
+    {
+      "name": "el-scrollbar",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-scrollbar/SKILL.md"
+    },
+    {
+      "name": "el-segmented",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-segmented/SKILL.md"
+    },
+    {
+      "name": "el-select",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-select/SKILL.md"
+    },
+    {
+      "name": "el-select-v2",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-select-v2/SKILL.md"
+    },
+    {
+      "name": "el-skeleton",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-skeleton/SKILL.md"
+    },
+    {
+      "name": "el-slider",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-slider/SKILL.md"
+    },
+    {
+      "name": "el-space",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-space/SKILL.md"
+    },
+    {
+      "name": "el-splitter",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-splitter/SKILL.md"
+    },
+    {
+      "name": "el-statistic",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-statistic/SKILL.md"
+    },
+    {
+      "name": "el-steps",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-steps/SKILL.md"
+    },
+    {
+      "name": "el-switch",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-switch/SKILL.md"
+    },
+    {
+      "name": "el-table",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-table/SKILL.md"
+    },
+    {
+      "name": "el-table-v2",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-table-v2/SKILL.md"
+    },
+    {
+      "name": "el-tabs",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tabs/SKILL.md"
+    },
+    {
+      "name": "el-tag",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tag/SKILL.md"
+    },
+    {
+      "name": "el-text",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-text/SKILL.md"
+    },
+    {
+      "name": "el-time-picker",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-time-picker/SKILL.md"
+    },
+    {
+      "name": "el-time-select",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-time-select/SKILL.md"
+    },
+    {
+      "name": "el-timeline",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-timeline/SKILL.md"
+    },
+    {
+      "name": "el-tooltip",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tooltip/SKILL.md"
+    },
+    {
+      "name": "el-tour",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tour/SKILL.md"
+    },
+    {
+      "name": "el-transfer",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-transfer/SKILL.md"
+    },
+    {
+      "name": "el-tree",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tree/SKILL.md"
+    },
+    {
+      "name": "el-tree-select",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tree-select/SKILL.md"
+    },
+    {
+      "name": "el-tree-v2",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-tree-v2/SKILL.md"
+    },
+    {
+      "name": "el-upload",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-upload/SKILL.md"
+    },
+    {
+      "name": "el-watermark",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/components/el-watermark/SKILL.md"
+    },
+    {
+      "name": "element-plus-components",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-components/SKILL.md"
+    },
+    {
+      "name": "element-plus-dark-mode",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-dark-mode/SKILL.md"
+    },
+    {
+      "name": "element-plus-design-border",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-design-border/SKILL.md"
+    },
+    {
+      "name": "element-plus-design-color",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-design-color/SKILL.md"
+    },
+    {
+      "name": "element-plus-design-layout",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-design-layout/SKILL.md"
+    },
+    {
+      "name": "element-plus-design-overview",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-design-overview/SKILL.md"
+    },
+    {
+      "name": "element-plus-design-typography",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-design-typography/SKILL.md"
+    },
+    {
+      "name": "element-plus-i18n",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-i18n/SKILL.md"
+    },
+    {
+      "name": "element-plus-quickstart",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-quickstart/SKILL.md"
+    },
+    {
+      "name": "element-plus-theming",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/element-plus-theming/SKILL.md"
+    },
+    {
+      "name": "element-plus-skills",
+      "package": "element-plus-skills",
+      "path": ".share/skills/element-plus-skills/SKILL.md"
+    },
+    {
+      "name": "tailwind-design-system",
+      "package": "tailwind-design-system",
+      "path": ".share/skills/tailwind-design-system/SKILL.md"
+    },
+    {
+      "name": "typescript-best-practices",
+      "package": "typescript-best-practices",
+      "path": ".share/skills/typescript-best-practices/SKILL.md"
+    },
+    {
+      "name": "ui-template",
+      "package": "ui-template",
+      "path": ".share/skills/ui-template/SKILL.md"
+    },
+    {
+      "name": "vite",
+      "package": "vite",
+      "path": ".share/skills/vite/SKILL.md"
+    },
+    {
+      "name": "vitest",
+      "package": "vitest",
+      "path": ".share/skills/vitest/SKILL.md"
+    },
+    {
+      "name": "vue",
+      "package": "vue",
+      "path": ".share/skills/vue/SKILL.md"
+    }
+  ]
+}

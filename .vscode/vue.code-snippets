@@ -1,0 +1,41 @@
+{
+  "Vue route page": {
+    "scope": "vue",
+    "prefix": "vue-page",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "import { useI18n } from \"vue-i18n\";",
+      "",
+      "defineOptions({ name: \"${1:FeaturePage}\" });",
+      "",
+      "const { t } = useI18n();",
+      "</script>",
+      "",
+      "<template>",
+      "  <section class=\"${2:feature-page}\" aria-labelledby=\"${3:feature-page-title}\">",
+      "    <header class=\"mb-4\">",
+      "      <h1 id=\"$3\">{{ t(\"${4:feature.title}\") }}</h1>",
+      "    </header>",
+      "    $0",
+      "  </section>",
+      "</template>"
+    ],
+    "description": "路由页骨架：填写唯一页面名、标题 id 与中英文 locale key，再按 UI Template 补业务分区和动态路由。"
+  },
+  "Vue local component": {
+    "scope": "vue",
+    "prefix": "vue-component",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "defineOptions({ name: \"${1:FeaturePanel}\" });",
+      "</script>",
+      "",
+      "<template>",
+      "  <div class=\"${2:feature-panel}\">",
+      "    $0",
+      "  </div>",
+      "</template>"
+    ],
+    "description": "局部组件骨架：按职责补齐类型化 props / emits / slots 和语义内容，需要局部样式时再添加 scoped style。"
+  }
+}
